@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #A4A4A4;
+	background-color: #151515;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#webname{
+	font-weight: bolder;
+	border: none;
+	color: #FF3118;
+	font-size: 140%;
+}
+.menu{
+	background-color: #303030;
+	color: #A4A4A4;
+	font-size: 110%;
+	width: 100%;
+	position: fixed;
+	}
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	width: 160px;
+	margin: 10px;
+	line-height: 50px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #A4A4A4;
+	padding: 30px;
+}
+.active,.menu ul li:hover{
+	border-bottom: 4PX solid;
+	border-color: #FF3118;
+	font-weight: bold;
+}
+#login{
+	color: #A4A4A4;
+	float: right;
+	text-decoration: none;
+	font-size: 107%;
+}
+#login li{
+	background-color: #FF3118;
+	border-radius: 100px;
+}
+#login li:hover{
+	font-weight: bolder;
+	border: none;
+}
+.head{
+	margin-top: 65px;
+	margin-left: 25px;
+	color: #FF3118;
+}
+.news{
+	margin: 2%;
+}
+.n td{
+	padding: 10px;
+	font-size: 125%
+}
+.n td a img{
+	height: 200px;
+	width: 350px;
+}
+.footer{
+	background-color: #303030;
+	text-align: center;
+	color:  #A4A4A4;
+}
+.footer ul li{
+	list-style: none;
+}
+.social{
+	width: 100%
+	height: auto;
+	margin: auto;
+}
+.social ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 20px 30px;
+	border-radius: 10px;
+	background-color: #151515;
+	font-size: 150%;
+}
+.social ul li:hover{
+	background-color: #FF3118;
+}
+.social ul li i{
+	line-height: 50px;
+}
+.ref ul li{
+	display: inline-flex;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	font-size: 110%;
+}
+.ref ul li a{
+	text-decoration: none;
+	color:  #A4A4A4;
+}
+.ref ul li a:hover{
+	color: #FF3118;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.bottom{
+	background-color: #FF3118;
+	text-align: center;
+	color:  #151515;
+	padding: 5px;
+}

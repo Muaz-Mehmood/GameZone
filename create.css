@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #A4A4A4;
+	background-color: #151515;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color: #FF3118;
+	background-color: #303030;
+	padding: 20px;
+}
+.create{
+	margin: 30px 400px 30px 400px;
+	margin: 
+	padding: 20px;
+	background-color: #303030;
+}
+.create p{
+	color: #FF3118;
+	text-align: center;
+	font-size: 225%;
+	font-weight: bold;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.create table{
+	margin: auto;
+}
+.create table tr td label{
+	font-size: 105%;
+}
+.create table tr td input{
+	background-color: #151515;
+	border: none;
+	font-size: 105%;
+	padding: 7px;
+	margin: 10px;
+	color: #A4A4A4;
+	outline: none;
+}
+.create table tr td input[type= "button"], .create table tr td input[type= "reset"]{
+	margin: 20px;
+	padding: 10px;
+	font-size: 100%;
+	color: #A4A4A4;
+	background-color: #FF3118;
+	border: none;
+	width: 65%;
+	border-radius: 50px;
+	outline: none;
+}
+.create table tr td input[type= "button"]:hover, .create table tr td input[type= "reset"]:hover{
+	font-weight: bold;
+	cursor: pointer;
+}

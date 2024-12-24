@@ -1,0 +1,24 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #151515;
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #A4A4A4;
+}
+.head{
+	color: #FF3118;
+	background-color: #303030;
+	padding: 20px;
+}
+p{
+	color: #FF3118;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	margin: 18%;
+	letter-spacing: 5px;
+}
